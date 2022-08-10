@@ -1,3 +1,33 @@
+Heres my app..it is deployed on firebase.
+https://imdbclone-10043.web.app/
+
+First create an account in firebase 
+Then create a project and create a app directory in it.
+
+Now pc commands 
+#firebase deployment
+### `npm install -g firebase-tools`
+###  `firebase login`
+
+select the directory where is your react app
+### `npm install -g yarn`
+### `yarn build run`
+This are prerequist to deploy a react app on firebase....if it is normal static website, you can skip these two steps
+###  `firebase init`
+
+Select the project shown on terminal. These are projects you have on the Firebase website (you created them first in firebase)
+It will ask is it public directory type `build` or just enter (build for react app to build inc yarn after installing it orjust enter for static website)
+Single app - `n`
+You can skip the github permission too just type `n`
+`enter`
+`enter`
+`enter`
+### `main` then enter
+Initialisation is done .Now it will ask the root directory where you want to deploy
+ Type the directory of website i.e yourusername/yourprojectname on the website
+ ### `firebase deploy`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
